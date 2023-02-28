@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- head starts here -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abiodun||Oladipupo</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<!-- head ends here -->
+
+<!-- body start here -->
+<body> 
+    <div>
+<button style="background-color: black; color: aliceblue;">Click Me</button>
+<a href="https://www.fiverr.com/users/mikeholad/manage_gigs/new?wizard=0&tab=general">Go To Fiver</a>
+    </div>
+    
+    <form action="dashboard.html" method="post" enctype="multipart/form-data">
+        <label for="fullname" style="color: blueviolet;">Fullname:
+            <input type="fullname" name="fullname" placeholder="Johnson Ogbeni Okon" required>
+        </label>
+        <br>
+        <label for="email" style="color: rgb(162, 226, 43);">Email:
+            <input type="email" name="email" id="email" placeholder="@example.com" required>
+        </label>
+        </label>
+        <br>
+        <label for="password" style="color: rgb(70, 43, 226);">Password:
+            <input type="password" name="password" placeholder="min of 8 characters" required>
+        </label>
+        <br>
+        <label for="gender" style="color: rgb(43, 183, 226);">Select gender:
+            <input type="radio" name="gender" required> Male
+            <input type="radio" name="gender" required> Female
+        </label>
+        <br>
+        <label for="age" style="color: rgb(95, 226, 43);">Age:
+            <input type="number" name="age" min="13" max="40" required>
+        </label>
+        <br>
+        <label for="date" style="color: orangered;">Select date:
+            <input type="datetime-local" name="date" required>
+            <br>
+            <label for="Country" style="color: orange;">
+                Country:
+            </label>
+            <select name="country" id="" required>
+                <option value="">--select country--</option>
+                <option value="ng">Nigeria</option>
+            </select>
+            <div> 
+                <hr background color="orange">
+            </div>
+            <!-- <br> -->
+            <label for="About me" style="color: teal;">About me</label>
+            <textarea name="" id="" cols="30" rows="10" required>                
+            </textarea>
+        <br>
+        <label for="" style="color: hotpink;">
+            Enter Document
+        </label>
+        <input type="hidden" name="upload_preset" value="YOUR_UPLOAD_PRESET">
+        <input type="file" name="file" accept=".csv" required>
+         <br>
+        <center>
+            <button type="submit">submit </button>
+        </center>
+    </form>    
+    <hr background color="orange">
+    <footer style="color: f;">
+        (c) Mikeholad
+    </footer>
+</body>
+<!-- body ends here -->
+</html>

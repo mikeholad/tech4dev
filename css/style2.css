@@ -1,0 +1,52 @@
+*{
+    background-color: rgb(189, 140, 151);
+}
+#border {
+	border-style: solid groove dashed dotted;
+	border-width: medium;
+	border-color: red yellow green black;
+	/* border-radius: 25px; */
+}
+input{
+    background-color: rgb(238, 221, 221);
+    border-width: 0px 0px 0px 25px;
+    border-color: none none purple none;
+}
+option{
+    background-color: rgb(43, 121, 19);
+    border-width: 0px 0px 0px 25px;
+    border-color: none none green none;
+}
+/* styles for form groups */
+.form-group {
+	margin-bottom: 20px;
+}
+.label-red {
+	color: #FF0000;
+}
+.label-green {
+	color: rgba(0, 128, 0, 1);
+}
+.label-blue {
+	color: rgb(0, 0, 255);
+}
+.label-orange {
+	color: #FFA500;
+}
+.label-purple {
+	color: rgba(128, 0, 128, 1);
+}
+.label-black {
+	color: rgb(0, 0, 0);
+}
+
+/* styles for submit button */
+.submit-button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+

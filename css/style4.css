@@ -1,0 +1,120 @@
+#outline {
+    width: 70%;
+    height: 70%;
+    border-style: dotted;
+}
+  #border1 {
+    /* width: 70%;
+    height: 70%; */
+    border-color: brown;
+    border-style: solid;
+    padding-left: 312.5%;
+    padding-right: 312.5%;
+    margin: 2% 7%;
+    padding: 1% 33% 1% 33%;
+  }
+
+  #border2 {
+    /* width: 70%;
+    height: 70%;   */
+    border-color: maroon;
+    border-style: solid;
+    margin: 2% 7%;
+    padding: 1% 33% 1% 33%;
+  }
+  #outer {
+    width: 200px;
+    height: 200px;
+    border-style: double;
+}
+
+#box1 {
+    width: 90%;
+    height: 90%;
+    border-style: dashed;
+}
+
+#box2 {
+    width: 70%;
+    height: 70%;
+    border-style: double;
+}
+
+#box3 {
+    width: 50%;
+    height: 50%;
+    border-style: dotted;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  /* Styles for the form group */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the label */
+  label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* Styles for the input field */
+  input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Styles for Name */
+#name {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  /* Styles for email */
+  #email {
+    background-color: #fff;
+    border: 1px solid #666;
+    color: #666;
+    padding: 8px;
+    font-size: 16px;
+  }
+  /* Styles for password */
+  #Password {
+    background-color: #fff;
+    border: 1px solid #666;
+    color: #666;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  /* Styles for submit button */
+  .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  /* Styles for form */
+  /* .form-container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  } */
+  
