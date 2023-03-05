@@ -1,0 +1,61 @@
+.bungalow {
+    width: 200px;
+    height: 150px;
+    background-color: #f2d49b;
+    position: relative;
+    margin: auto;
+    float: none;
+  }
+  
+  
+  .roof {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 50px solid #c93b3b;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .walls {
+    width: 160px;
+    height: 100px;
+    background-color: #c8ad7f;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .door {
+    width: 50px;
+    height: 80px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .window {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    right: 0;
+    margin: auto;
+  }
+  
+  .window:nth-of-type(2) {
+    left: auto;
+    right: 20px;
+  }
+  

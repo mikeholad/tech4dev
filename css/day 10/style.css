@@ -1,0 +1,89 @@
+/* Set default styles for body and main content */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Set styles for article content */
+  .article {
+    margin-bottom: 40px;
+  }
+  
+  .article h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .article p {
+    margin-bottom: 10px;
+  }
+  
+  /* Set styles for "Read More" button */
+  .read-more {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Set styles for sticky navigation pane */
+  .nav-pane {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+  }
+  
+  .nav-pane ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .nav-pane li {
+    margin-right: 10px;
+  }
+  
+  .nav-pane a {
+    display: block;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  /* Set styles for smaller screen sizes */
+  @media screen and (max-width: 374px) {
+    /* Truncate article content and display "Read More" button */
+    .article p:not(:first-of-type) {
+      display: none;
+    }
+  
+    .read-more {
+      display: block;
+    }
+  
+    /* Resize navigation pane */
+    .nav-pane ul {
+      flex-wrap: wrap;
+    }
+  
+    .nav-pane li {
+      flex-basis: 50%;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  

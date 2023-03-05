@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Register
+        </title>
+
+        
+
+
+    </head>
+
+    <body>
+
+        <b>Kindly fill in this form to register.</b><br><br><br>
+
+        
+
+        <form action="" method="post">
+            <label for="name"><b>First Name:</b><br>
+                <input type="text" name="firstname" id="firstname" placeholder="your first name" required>
+            </label><br><br>
+
+            <label for="name"><b>Middle Name:</b><br>
+                <input type="text" name="middlename" id="middlename" placeholder="your middle name" required>
+            </label><br><br>
+
+            <label for="name"><b>Last Name:</b><br>
+                <input type="text" name="lastname" id="lastname" placeholder="your last name" required>
+            </label><br><br>
+
+            <label for=""><b>Email Address:</b><br>
+                <input type="email" name="email" id="email" placeholder="info@example.com" required>
+            </label><br><br>
+
+            <label for="username"><b>Username:</b><br>
+                <input type="text" placeholder="enter username" name="username:" id="username" required>
+            </label><br><br>
+
+            <label for="password"><b>Password:</b><br>
+                <input type="password" name="password" id="password" placeholder="minimum of 8 characters" required>
+            </label><br><br>
+
+            <label for="confirm"><b>Confirm Password:</b><br>
+                <input type="password" name="psw-repeat" id="psw-repeat" required>
+            </label><br><br>
+
+            <label for="" required><b>Gender:</b><br>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">Other
+            </label><br><br>
+
+            <label for=""><b>Number:</b><br>
+                <input type="text" name="country code" value="+234" size="1" readonly>
+                <input type="text" name="text" placeholder="10 digits" required>
+            </label><br><br>
+
+            <label for="" required><b>Date of Birth:</b><br>
+                <input type="date" name="date" id="date" required>
+            </label><br><br>
+
+            <label for=""><b>Country:</b><br></label>
+
+            <select name="" id="" required>
+                <option value="">--select country--</option>
+                <option value="ag">Argentina</option>
+                <option value="au">Australia</option>
+                <option value="br">Brazil</option>
+                <option value="ch">China</option>
+                <option value="gh">Ghana</option>
+                <option value="ng">Nigeria</option>
+                <option value="ru">Russia</option>
+                <option value="sa">South Africa</option>
+                <option value="uk">United Kingdom</option>
+            </select><br><br>
+
+            <label for="name"><b>Address:</b></label><br>
+            <textarea name="" id="box" cols="40" rows="10" required></textarea><br><br>
+
+            <label for="" required><b>Upload Profile Image:</b>
+                <input type="file" name="file" id="fileselect" accept=".csv" style="color: teal;" required>
+            </label><br><br>
+
+            By creating an account you hereby agree to our <a href="#">Terms&Conditions</a> and <a href=#>Privacy Policy</a><br><br>
+
+            <label for="">
+                <input type="checkbox" name="checkbox" id="" required>I agree
+            </label><br><br>
+
+            <label>
+                <button type="reset" id="reset">Clear All</button>
+            </label>
+
+            <label for="">
+                <button type="submit" id="submit">Submit</button>
+            </label><br><br>
+
+            Already have an account? <a href="#">Sign in</a>
+        </form>
+    </body>
+</html>
